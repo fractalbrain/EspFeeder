@@ -42,7 +42,7 @@
 #define SERVO1 4
 #define BUTTON2 13
 #define SERVO2 14
-#define TONE 12
+#define TONE 12 //Pin 12 doesnt appear to be outputting pwm
 
 Servo servo1;
 Servo servo2;
