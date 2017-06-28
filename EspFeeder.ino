@@ -2,11 +2,13 @@
  EspFeeder -- Web Server Enabled Pet Feeder
  Base code is https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WebServer/examples/FSBrowser/FSBrowser.ino
  Base Code Copyright (c) 2015 Hristo Gochkov. All rights reserved. LGPL
- Code is highly modifed.
+ Code is highly modifed
+ Updated by fractalbrain - 2017-06-28-20:31:48-UTC.
 */
 
+
 /* Requirements:
-  Arduino-1.6.11
+  Arduino-1.8.3
   ESP8266/Arduino :Additional Boards Manager URL: http://arduino.esp8266.com/stable/package_esp8266com_index.json
   ESP8266FS plugin, installed in tools https://github.com/esp8266/arduino-esp8266fs-plugin/releases/download/0.2.0/ESP8266FS-0.2.0.zip
   Bounce2 Library, installed in library https://github.com/thomasfredericks/Bounce2/releases/tag/V2.21
@@ -14,7 +16,6 @@
       (the libraries can be installed with the library manager instead)
 
   Don't forget to restart the Arduino IDE after installing these things.
-
 
   Set your esp settings.. the board, program method, flash size and spiffs size.
 
@@ -38,10 +39,10 @@
 #include <string.h>
 
 #define BUTTON1 2
-#define SERVO1 13
-#define BUTTON2 14
-#define SERVO2 12
-#define TONE 4
+#define SERVO1 4
+#define BUTTON2 13
+#define SERVO2 14
+#define TONE 12
 
 Servo servo1;
 Servo servo2;

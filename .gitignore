@@ -79,3 +79,5 @@ $RECYCLE.BIN/
 *.lnk
 
 build/*
+
+diagnostics.dwf3work
